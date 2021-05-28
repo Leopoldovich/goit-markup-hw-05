@@ -8,6 +8,8 @@
   --footer-contact-link-color: #ffffff99;
   --footer-bg-color: #2f303a;
   --portfolio-border-line: 1px solid #eeeeee;
+  --anim-transition-duration: 2500ms;
+  --anim-transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 h1,
@@ -133,6 +135,9 @@ header {
   letter-spacing: 0.02em;
   padding-top: 32px;
   padding-bottom: 32px;
+  transition-property: color;
+  transition-duration: var(--anim-transition-duration);
+  transition-timing-function: var(--anim-transition-timing-function);
 }
 
 .nav-link-item:not(:last-child) {
@@ -154,6 +159,9 @@ header {
   display: block;
   display: flex;
   align-items: center;
+  transition-property: color;
+  transition-duration: var(--anim-transition-duration);
+  transition-timing-function: var(--anim-transition-timing-function);
 }
 
 .contact-header-list-icon-mail {
@@ -161,6 +169,9 @@ header {
   height: 12px;
   margin-right: 10px;
   fill: var(--main-color);
+  transition-property: fill;
+  transition-duration: var(--anim-transition-duration);
+  transition-timing-function: var(--anim-transition-timing-function);
 }
 
 .contact-header-list-icon-tel {
@@ -168,6 +179,9 @@ header {
   height: 16px;
   margin-right: 10px;
   fill: var(--main-color);
+  transition-property: fill;
+  transition-duration: var(--anim-transition-duration);
+  transition-timing-function: var(--anim-transition-timing-function);
 }
 
 .active-open-link {
@@ -234,6 +248,9 @@ header {
   padding-bottom: 10px;
   padding-left: 32px;
   padding-right: 32px;
+  transition-property: background-color;
+  transition-duration: var(--anim-transition-duration);
+  transition-timing-function: var(--anim-transition-timing-function);
 }
 
 .hero-button:hover,
@@ -373,6 +390,9 @@ header {
   justify-content: center;
   align-items: center;
   border-radius: 50%;
+  transition-property: background-color;
+  transition-duration: var(--anim-transition-duration);
+  transition-timing-function: var(--anim-transition-timing-function);
 }
 
 .team-list-icon {
@@ -380,6 +400,9 @@ header {
   height: 20px;
   display: block;
   fill: #afb1b8;
+  transition-property: fill;
+  transition-duration: var(--anim-transition-duration);
+  transition-timing-function: var(--anim-transition-timing-function);
 }
 
 .team-list-icon-link:hover,
@@ -414,10 +437,16 @@ header {
   display: flex;
   justify-content: center;
   align-items: center;
+  transition-property: border;
+  transition-duration: var(--anim-transition-duration);
+  transition-timing-function: var(--anim-transition-timing-function);
 }
 
 .client-list-icon {
   fill: #afb1b8;
+  transition-property: fill;
+  transition-duration: var(--anim-transition-duration);
+  transition-timing-function: var(--anim-transition-timing-function);
 }
 
 .yaco-client-list-icon {
@@ -485,6 +514,9 @@ header {
   border: 0;
   padding: 6px 22px;
   background-color: #f5f4fa;
+  transition-property: background-color, color;
+  transition-duration: var(--anim-transition-duration);
+  transition-timing-function: var(--anim-transition-timing-function);
 }
 
 .buttons:hover,
@@ -508,6 +540,9 @@ header {
   flex-basis: calc(100% / 3 - 30px);
   margin-right: 30px;
   margin-top: 30px;
+  transition-property: box-shadow;
+  transition-duration: var(--anim-transition-duration);
+  transition-timing-function: var(--anim-transition-timing-function);
 }
 
 .portfolio-filter-box-list-item:hover,
@@ -571,6 +606,9 @@ footer {
   line-height: 1.7px;
   letter-spacing: 0.03em;
   color: var(--footer-contact-link-color);
+  transition-property: color;
+  transition-duration: var(--anim-transition-duration);
+  transition-timing-function: var(--anim-transition-timing-function);
 }
 
 .footer-contact-link-city-address {
@@ -615,6 +653,9 @@ footer {
   align-items: center;
   border-radius: 50%;
   background-color: rgba(255, 255, 255, 0.1);
+  transition-property: background-color;
+  transition-duration: var(--anim-transition-duration);
+  transition-timing-function: var(--anim-transition-timing-function);
 }
 
 .footer-list-icon {
@@ -622,6 +663,9 @@ footer {
   height: 20px;
   display: block;
   fill: var(--hero-and-city-word-color);
+  transition-property: fill;
+  transition-duration: var(--anim-transition-duration);
+  transition-timing-function: var(--anim-transition-timing-function);
 }
 
 .footer-list-icon-link:hover,
