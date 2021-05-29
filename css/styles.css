@@ -546,7 +546,7 @@ bottom: 0;
   border: 0;
   padding: 6px 22px;
   background-color: #f5f4fa;
-  transition-property: background-color, color;
+  transition-property: background-color, color, box-shadow;
   transition-duration: var(--anim-transition-duration);
   transition-timing-function: var(--anim-transition-timing-function);
 }
